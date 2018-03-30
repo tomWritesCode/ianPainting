@@ -17,14 +17,13 @@
 
   ul.menuContainer{
     padding: 0;
-  }
-
-  li{
-    display: block;
+    border-radius: 0 0 6px 0;
   }
 
   a.navItems{
     font-size: 24px;
+    display: block;
+    padding: 0;
   }
 
   .openClose {

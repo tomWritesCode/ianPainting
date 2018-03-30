@@ -26,12 +26,13 @@ nav{
   float: right;
   line-height: 80px;
 }
+ul{
+  background: $dark;
+}
 
-li{
+a.navItems{
   display: inline;
   color: $light;
-}
-a.navItems{
   padding: 31px 15px;
 }
 a.navHover:hover{

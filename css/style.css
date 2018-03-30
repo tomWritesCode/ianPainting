@@ -31,11 +31,12 @@ nav {
   float: right;
   line-height: 80px; }
 
-li {
-  display: inline;
-  color: ghostwhite; }
+ul {
+  background: #afc2cb; }
 
 a.navItems {
+  display: inline;
+  color: ghostwhite;
   padding: 31px 15px; }
 
 a.navHover:hover {
@@ -75,11 +76,12 @@ h3.blurb {
     text-align: center;
     border-radius: 0 0 6px 0; }
   ul.menuContainer {
-    padding: 0; }
-  li {
-    display: block; }
+    padding: 0;
+    border-radius: 0 0 6px 0; }
   a.navItems {
-    font-size: 24px; }
+    font-size: 24px;
+    display: block;
+    padding: 0; }
   .openClose {
     height: 60px;
     width: 60px;
