@@ -1,4 +1,7 @@
 @media (max-width: 600px) {
+  header{
+    margin-bottom:6px;
+  }
   a.heading{
     float: right;
     position: unset;
@@ -14,7 +17,7 @@
   }
   nav.mainNavigation{
     margin-top: 5px;
-    transition: 800ms ease-in-out;
+    transition: 800ms ease-out;
   }
   ul{
     background: unset;
@@ -77,6 +80,6 @@
 
   .menuMobileOpen {
     margin-left: -20px;
-    transition: 800ms ease-in-out;
+    transition: 800ms ease-in;
   }
 }
