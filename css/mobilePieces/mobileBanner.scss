@@ -32,7 +32,6 @@
   width: 60px;
   margin-left: -20px;
   margin-top: 10px;
-  margin-bottom: 10px;
   }
 
   .x,.y {
@@ -67,4 +66,8 @@
     height: 50px;
   }
 
+  .menuMobileOpen {
+  margin-left: -20px;
+  transition: 800ms ease-in-out;
+}
 }

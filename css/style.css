@@ -84,8 +84,7 @@ h3.blurb {
     height: 60px;
     width: 60px;
     margin-left: -20px;
-    margin-top: 10px;
-    margin-bottom: 10px; }
+    margin-top: 10px; }
   .x, .y {
     height: 40px;
     width: 4px;
@@ -108,4 +107,7 @@ h3.blurb {
     transition: 300ms ease-in-out;
     transform: rotate(45deg);
     margin-top: -50px;
-    height: 50px; } }
+    height: 50px; }
+  .menuMobileOpen {
+    margin-left: -20px;
+    transition: 800ms ease-in-out; } }
