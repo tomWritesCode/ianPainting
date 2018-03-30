@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  box-sizing: border-box; }
+
+a {
+  color: unset;
+  text-decoration: none; }
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100vw;
+  padding: 0 20px;
+  background-color: #afc2cb;
+  font-family: helvetica, sans-serif; }
+
+a.heading {
+  font-size: 24px;
+  line-height: 80px;
+  height: 100%;
+  font-weight: 200;
+  position: absolute;
+  color: ghostwhite; }
+
+nav {
+  display: flex;
+  flex-wrap: none;
+  justify-content: space-between;
+  float: right;
+  line-height: 80px; }
+
+li {
+  display: inline;
+  color: ghostwhite; }
+
+a.navItems {
+  padding: 31px 15px; }
+
+a.navHover:hover {
+  padding: 31px 8px;
+  color: #afc2cb;
+  background-color: ghostwhite;
+  font-weight: bold; }
+
+.introBanner {
+  margin-top: 120px;
+  width: 100vw;
+  height: auto;
+  background: ghostwhite;
+  font-family: helvetica, sans-serif;
+  padding: 30px 40px;
+  box-shadow: 2px 2px 5px grey; }
+
+h2.title {
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+h3.blurb {
+  font-weight: 200;
+  font-style: italic; }
+
+@media (max-width: 600px) {
+  a.heading {
+    float: right;
+    position: unset; }
+  nav {
+    margin-left: -20px;
+    display: block;
+    margin-left: -100vw;
+    float: none;
+    background: #afc2cb;
+    max-width: 250px;
+    text-align: center;
+    border-radius: 0 0 6px 0; }
+  ul.menuContainer {
+    padding: 0; }
+  li {
+    display: block; }
+  a.navItems {
+    font-size: 24px; }
+  .openClose {
+    height: 60px;
+    width: 60px;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .x, .y {
+    height: 40px;
+    width: 4px;
+    background-color: ghostwhite;
+    border-radius: 4px;
+    margin-left: 28px; }
+  .xOpen {
+    transform: rotate(120deg);
+    transition: 500ms ease-in-out; }
+  .yOpen {
+    margin-top: -21px;
+    transform: rotate(-120deg);
+    transition: 500ms ease-in-out; }
+  .xClose {
+    transition: 300ms ease-in-out;
+    transform: rotate(-45deg);
+    margin-top: 15px;
+    height: 50px; }
+  .yClose {
+    transition: 300ms ease-in-out;
+    transform: rotate(45deg);
+    margin-top: -50px;
+    height: 50px; } }

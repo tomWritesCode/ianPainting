@@ -1,0 +1,70 @@
+@media (max-width: 600px) {
+  a.heading{
+    float: right;
+    position: unset;
+  }
+
+  nav{
+    margin-left: -20px;
+    display: block;
+    margin-left: -100vw;
+    float: none;
+    background: $dark;
+    max-width: 250px;
+    text-align: center;
+    border-radius: 0 0 6px 0;
+  }
+
+  ul.menuContainer{
+    padding: 0;
+  }
+
+  li{
+    display: block;
+  }
+
+  a.navItems{
+    font-size: 24px;
+  }
+
+  .openClose {
+  height: 60px;
+  width: 60px;
+  margin-left: -20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+  .x,.y {
+  height: 40px;
+  width: 4px;
+  background-color: $light;
+  border-radius: 4px;
+  margin-left: 28px;
+  }
+  .xOpen {
+  transform: rotate(120deg);
+  transition: 500ms ease-in-out;
+  }
+
+  .yOpen {
+    margin-top: -21px;
+    transform: rotate(-120deg);
+    transition: 500ms ease-in-out;
+  }
+
+  .xClose {
+    transition: 300ms ease-in-out;
+    transform: rotate(-45deg);
+    margin-top: 15px;
+    height: 50px;
+  }
+
+  .yClose {
+    transition: 300ms ease-in-out;
+    transform: rotate(45deg);
+    margin-top: -50px;
+    height: 50px;
+  }
+
+}
