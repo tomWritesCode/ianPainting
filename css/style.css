@@ -67,21 +67,28 @@ h3.blurb {
     float: right;
     position: unset; }
   nav {
-    margin-left: -20px;
+    margin-top: 5px;
     display: block;
     margin-left: -100vw;
     float: none;
-    background: #afc2cb;
-    max-width: 250px;
     text-align: center;
     border-radius: 0 0 6px 0; }
+  nav.mainNavigation {
+    transition: 800ms ease-in-out; }
+  ul {
+    background: unset; }
   ul.menuContainer {
+    width: 250px;
     padding: 0;
     border-radius: 0 0 6px 0; }
   a.navItems {
     font-size: 24px;
     display: block;
-    padding: 0; }
+    padding: 0;
+    width: 250px;
+    height: 60px;
+    line-height: 60px;
+    background: #afc2cb; }
   .openClose {
     height: 60px;
     width: 60px;
