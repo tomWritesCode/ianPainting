@@ -14,3 +14,38 @@ a{
   color: unset;
   text-decoration: none;
 }
+
+.padding{
+  padding: 0 40px;
+}
+
+// Standard Button Styling  
+.btn-std{
+  display: block;
+  width: 150px;
+  text-align: center;
+  font-family: $font-style;
+  padding: 10px 20px;
+  background: $dark;
+  color: $light;
+  border-radius: 5px;
+  transition: all 700ms ease;
+  box-shadow: 3px 3px 3px grey;
+}
+.btn-std:hover{
+  background: $light;
+  color: $dark;
+  font-weight: 600;
+  padding: 15px 25px;
+  width: 250px;
+}
+
+.btn-sml{
+  display: block;
+  text-align: center;
+  padding: 5px 10px;
+  background: $dark;
+  color: $light;
+  border-radius: 5px;
+  margin-top: 5px;
+}

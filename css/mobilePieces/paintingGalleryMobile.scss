@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+  .container{
+    font-family: $font-style;
+    text-align: center;
+    width: 95vw;
+    max-width: 1200px;
+    margin: 100px auto 20px auto;
+
+    .currentSale{
+      display: grid;
+      grid-template-columns: 100% ;
+      grid-template-rows: repeat(3,auto) ; 
+      grid-gap: 20px;
+    }
+    .artworkContainer{
+
+      .title{
+        font-size: 24px;
+      }
+      img.artworkImage{
+        width: 100%;
+        height: auto;
+      }
+      .info{
+        font-size: 20px;
+      }
+    } //End artworkContainer
+
+  } // End Container
+}

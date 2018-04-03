@@ -6,6 +6,37 @@ a {
   color: unset;
   text-decoration: none; }
 
+.padding {
+  padding: 0 40px; }
+
+.btn-std {
+  display: block;
+  width: 150px;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+  padding: 10px 20px;
+  background: #afc2cb;
+  color: ghostwhite;
+  border-radius: 5px;
+  transition: all 700ms ease;
+  box-shadow: 3px 3px 3px grey; }
+
+.btn-std:hover {
+  background: ghostwhite;
+  color: #afc2cb;
+  font-weight: 600;
+  padding: 15px 25px;
+  width: 250px; }
+
+.btn-sml {
+  display: block;
+  text-align: center;
+  padding: 5px 10px;
+  background: #afc2cb;
+  color: ghostwhite;
+  border-radius: 5px;
+  margin-top: 5px; }
+
 header {
   position: absolute;
   top: 0;
@@ -40,7 +71,7 @@ a.navItems {
   padding: 31px 15px; }
 
 a.navHover:hover {
-  padding: 31px 8px;
+  padding: 31px 15px;
   color: #afc2cb;
   background-color: ghostwhite;
   font-weight: bold; }
@@ -54,13 +85,70 @@ a.navHover:hover {
   padding: 30px 40px;
   box-shadow: 2px 2px 5px grey; }
 
-h2.title {
+.title {
+  font-family: helvetica, sans-serif;
   font-weight: bold;
   margin-bottom: 10px; }
 
-h3.blurb {
+.blurb {
+  font-family: helvetica, sans-serif;
   font-weight: 200;
   font-style: italic; }
+
+section.about {
+  width: 95vw;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  height: auto;
+  min-height: 200px; }
+  section.about div.text {
+    padding-top: 55px; }
+  section.about h3 {
+    display: inline; }
+  section.about p {
+    width: 75%; }
+
+div.profilePhoto {
+  height: 200px;
+  width: 150px;
+  background: yellow;
+  border-radius: 7px;
+  display: inline;
+  float: right; }
+
+.currentWork {
+  margin: 0 auto; }
+  .currentWork h3 {
+    text-align: center; }
+  .currentWork a {
+    margin: 0 auto; }
+
+.container {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  width: 95vw;
+  max-width: 1200px;
+  margin: 100px auto 20px auto; }
+  .container .currentSale {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 15px 2%; }
+  .container .artworkContainer {
+    background: ghostwhite;
+    padding: 10px 15px;
+    border-radius: 7px; }
+    .container .artworkContainer .title {
+      font-weight: 600; }
+    .container .artworkContainer img.artworkImage {
+      width: 100%;
+      height: auto; }
+    .container .artworkContainer .info {
+      font-weight: 300; }
+    .container .artworkContainer .info2 {
+      font-weight: 300;
+      margin-top: 5px; }
 
 @media (max-width: 600px) {
   header {
@@ -73,8 +161,7 @@ h3.blurb {
     display: block;
     margin-left: -100vw;
     float: none;
-    text-align: center;
-    border-radius: 0 0 6px 0; }
+    text-align: center; }
   nav.mainNavigation {
     margin-top: 5px;
     transition: 800ms ease-out; }
@@ -92,6 +179,8 @@ h3.blurb {
     height: 60px;
     line-height: 60px;
     background: #afc2cb; }
+  a.last {
+    border-radius: 0 0 6px 0; }
   .openClose {
     height: 60px;
     width: 60px;
@@ -124,3 +213,35 @@ h3.blurb {
     margin-top: 5px;
     margin-left: -20px;
     transition: 800ms ease-in; } }
+
+@media (max-width: 600px) {
+  div.profilePhoto {
+    display: block;
+    float: unset;
+    margin: 0 auto; }
+  section.about {
+    display: block; }
+    section.about div.text {
+      padding-top: 20px; }
+    section.about p {
+      width: 100%; } }
+
+@media (max-width: 600px) {
+  .container {
+    font-family: helvetica, sans-serif;
+    text-align: center;
+    width: 95vw;
+    max-width: 1200px;
+    margin: 100px auto 20px auto; }
+    .container .currentSale {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: repeat(3, auto);
+      grid-gap: 20px; }
+    .container .artworkContainer .title {
+      font-size: 24px; }
+    .container .artworkContainer img.artworkImage {
+      width: 100%;
+      height: auto; }
+    .container .artworkContainer .info {
+      font-size: 20px; } }

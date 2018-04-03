@@ -1,0 +1,34 @@
+.container{
+  font-family: $font-style;
+  text-align: center;
+  width: 95vw;
+  max-width: 1200px;
+  margin: 100px auto 20px auto;
+
+  .currentSale{
+    display: grid;
+    grid-template-columns: repeat(3,32%) ;
+    grid-template-rows: repeat(3,auto) ; 
+    grid-gap: 15px 2%;
+  }
+  .artworkContainer{
+    background: $light;
+    padding: 10px 15px;
+    border-radius: 7px;
+    .title{
+      font-weight: 600;
+    }
+    img.artworkImage{
+      width: 100%;
+      height: auto;
+    }
+    .info{
+      font-weight: 300;
+    }
+    .info2{
+      font-weight: 300;
+      margin-top: 5px;
+    }
+  }
+
+}

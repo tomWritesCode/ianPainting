@@ -8,12 +8,14 @@
   box-shadow: 2px 2px 5px grey;
 }
 
-h2.title{
+.title{
+  font-family: $font-style;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-h3.blurb{
+.blurb{  
+  font-family: $font-style;
   font-weight: 200;
   font-style: italic;
 }

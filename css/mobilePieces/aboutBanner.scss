@@ -1,0 +1,18 @@
+  @media (max-width: 600px) {
+  div.profilePhoto{
+    display: block;
+    float: unset;
+    margin: 0 auto;
+  }
+  section.about{
+    display: block;
+
+    div.text{
+      padding-top: 20px;
+    }
+
+    p{
+      width:100%;
+    }
+  }
+}

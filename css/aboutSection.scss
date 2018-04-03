@@ -1,0 +1,40 @@
+
+section.about{
+  width: 95vw;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  height: auto;
+  min-height: 200px;
+
+  div.text{
+    padding-top: 55px;
+  }
+  h3{
+    display: inline;
+  }
+  p{
+    width: 75%;
+  }
+}
+
+div.profilePhoto{
+  height: 200px; 
+  width: 150px;
+  background: yellow;
+  border-radius: 7px;
+  display: inline;
+  float:right;
+}
+
+.currentWork{
+    margin: 0 auto;
+
+    h3{
+      text-align: center;
+    }
+
+    a{
+      margin: 0 auto;
+    }
+  }
