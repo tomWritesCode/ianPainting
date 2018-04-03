@@ -118,7 +118,7 @@ div.profilePhoto {
   float: right; }
 
 .currentWork {
-  margin: 0 auto; }
+  margin: 0 auto 50px auto; }
   .currentWork h3 {
     text-align: center; }
   .currentWork a {
