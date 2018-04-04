@@ -40,6 +40,7 @@ a{
   width: 250px;
 }
 
+// Small Button Styling
 .btn-sml{
   display: block;
   text-align: center;
@@ -48,4 +49,5 @@ a{
   color: $light;
   border-radius: 5px;
   margin-top: 5px;
+  bottom: 0;
 }
