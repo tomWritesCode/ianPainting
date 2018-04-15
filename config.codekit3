@@ -68,6 +68,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/individual.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/individual.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/introBanner.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -91,6 +104,19 @@
 		"oA": 1,
 		"oAP": "\/css\/mobilePieces\/aboutBanner.css",
 		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/mobilePieces\/individualMobile.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/mobilePieces\/individualMobile.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -202,6 +228,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/workIndividual.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/workIndividual.html",
+		"oF": 0
 		}
 	},
 "hooks": [
