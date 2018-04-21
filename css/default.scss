@@ -51,3 +51,13 @@ a{
   margin-top: 5px;
   bottom: 0;
 }
+
+div.pageBottom{
+  margin-bottom: 50px;
+}
+@media (max-width: 660px){
+  div.pageBottom{
+    margin-bottom: 30px;
+  }
+}
+

@@ -1,0 +1,47 @@
+section.about{
+  margin-top: 100px;
+}
+
+div.showsBlock{
+  display: block;
+  margin: 0 auto;
+  width: 95vw;
+  text-align: center;
+}
+section.shows{
+  width: 45vw;
+  display: inline-block;
+}
+
+ul.shows{
+  background: $light;
+  padding: 0;
+  border-radius: 4px;
+}
+
+li.show, li.com{
+  margin: 5px 0;
+  list-style-type: none;
+}
+
+section.comission{
+  width: 95vw;
+  margin: 40px auto 0 auto;
+}
+
+ul.comissions{
+  background: none;
+  padding: 0;
+}
+li.com{
+  margin: 10px 0;
+  background: $light;
+  border-radius: 4px;
+}
+
+h3.work{
+  padding: 10px 15px 5px 15px;
+}
+p.client{
+  padding: 0 15px 10px 15px;
+}
