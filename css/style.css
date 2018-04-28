@@ -275,6 +275,9 @@ p.client {
   border-radius: 8px 8px 0 0;
   margin-right: 5px; }
 
+.tab:hover {
+  cursor: pointer; }
+
 .show {
   display: block;
   opacity: 1;
