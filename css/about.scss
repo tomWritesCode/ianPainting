@@ -9,19 +9,38 @@ div.showsBlock{
   text-align: center;
 }
 section.shows{
-  width: 45vw;
+  width: 70vw;
   display: inline-block;
+  margin-top: 20px;
 }
 
 ul.shows{
-  background: $light;
   padding: 0;
-  border-radius: 4px;
 }
 
-li.show, li.com{
+li.show{
+  padding: 8px 0;
+  background: $middle;
+  border-radius: 6px;
+
+  h4.date{
+    font-family: $font-style;
+    display: inline;
+    margin-right: 10px;
+  }
+  p.show{
+    font-family: $font-style;
+    display: inline;
+  }
+}
+li.show, div.com{
   margin: 5px 0;
   list-style-type: none;
+}
+section.shows h3.title{
+  padding: 10px 10px;
+  background: $dark;
+  color: $light;
 }
 
 section.comission{
@@ -33,10 +52,8 @@ ul.comissions{
   background: none;
   padding: 0;
 }
-li.com{
+div.com{
   margin: 10px 0;
-  background: $light;
-  border-radius: 4px;
 }
 
 h3.work{
@@ -44,4 +61,34 @@ h3.work{
 }
 p.client{
   padding: 0 15px 10px 15px;
+}
+
+
+.informationTab{
+  width: 90vw;
+  margin: 20px auto;
+  font-family: $font-style;
+}
+.tab{
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  height: 40px;
+  padding: 5px 20px;
+  background: $middle;
+  border-radius: 8px 8px 0 0;
+  margin-right: 5px
+}
+.show{
+  display: block;
+  opacity: 1;
+  transition: 400ms ease;
+  background: $middle;
+  margin-top: -10px;
+  border-radius: 0 8px 8px 8px;
+}
+.hide{
+  display: none;
+  opacity: 0;
+  transition: 400ms ease;
 }

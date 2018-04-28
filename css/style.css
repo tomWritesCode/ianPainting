@@ -39,7 +39,7 @@ a {
   bottom: 0; }
 
 div.pageBottom {
-  margin-bottom: 50px; }
+  margin-bottom: 100px; }
 
 @media (max-width: 660px) {
   div.pageBottom {
@@ -70,7 +70,7 @@ nav {
   float: right;
   line-height: 80px; }
 
-ul {
+ul.header {
   background: #afc2cb; }
 
 a.navItems {
@@ -215,17 +215,33 @@ div.showsBlock {
   text-align: center; }
 
 section.shows {
-  width: 45vw;
-  display: inline-block; }
+  width: 70vw;
+  display: inline-block;
+  margin-top: 20px; }
 
 ul.shows {
-  background: ghostwhite;
-  padding: 0;
-  border-radius: 4px; }
+  padding: 0; }
 
-li.show, li.com {
+li.show {
+  padding: 8px 0;
+  background: #e1f5fe;
+  border-radius: 6px; }
+  li.show h4.date {
+    font-family: helvetica, sans-serif;
+    display: inline;
+    margin-right: 10px; }
+  li.show p.show {
+    font-family: helvetica, sans-serif;
+    display: inline; }
+
+li.show, div.com {
   margin: 5px 0;
   list-style-type: none; }
+
+section.shows h3.title {
+  padding: 10px 10px;
+  background: #afc2cb;
+  color: ghostwhite; }
 
 section.comission {
   width: 95vw;
@@ -235,16 +251,42 @@ ul.comissions {
   background: none;
   padding: 0; }
 
-li.com {
-  margin: 10px 0;
-  background: ghostwhite;
-  border-radius: 4px; }
+div.com {
+  margin: 10px 0; }
 
 h3.work {
   padding: 10px 15px 5px 15px; }
 
 p.client {
   padding: 0 15px 10px 15px; }
+
+.informationTab {
+  width: 90vw;
+  margin: 20px auto;
+  font-family: helvetica, sans-serif; }
+
+.tab {
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  height: 40px;
+  padding: 5px 20px;
+  background: #e1f5fe;
+  border-radius: 8px 8px 0 0;
+  margin-right: 5px; }
+
+.show {
+  display: block;
+  opacity: 1;
+  transition: 400ms ease;
+  background: #e1f5fe;
+  margin-top: -10px;
+  border-radius: 0 8px 8px 8px; }
+
+.hide {
+  display: none;
+  opacity: 0;
+  transition: 400ms ease; }
 
 @media (max-width: 660px) {
   header {
@@ -356,6 +398,24 @@ p.client {
     margin: 0 auto;
     width: 100%; } }
 
-section.shows {
-  width: 95vw;
-  display: block; }
+@media (max-width: 660px) {
+  section.shows {
+    width: 95vw;
+    display: block; }
+  .informationTab {
+    width: 90vw;
+    margin: 20px auto;
+    font-family: helvetica, sans-serif; }
+  .tab {
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    height: 50px;
+    padding: 5px 20px;
+    background: #e1f5fe;
+    border-radius: 8px 8px 0 0;
+    margin-right: 5px; }
+  .tabSelect {
+    background: #afc2cb;
+    color: ghostwhite;
+    font-weight: bold; } }

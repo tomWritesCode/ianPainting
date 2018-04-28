@@ -1,4 +1,29 @@
-section.shows{
+@media(max-width: 660px){
+  section.shows{
   width: 95vw;
   display: block;
+  }
+
+  .informationTab{
+  width: 90vw;
+  margin: 20px auto;
+  font-family: $font-style;
+}
+.tab{
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  height: 50px;
+  padding: 5px 20px;
+  background: $middle;
+  border-radius: 8px 8px 0 0;
+  margin-right: 5px
+}
+
+.tabSelect{
+  background: $dark;
+  color: $light;
+  font-weight: bold;
+}
+
 }
