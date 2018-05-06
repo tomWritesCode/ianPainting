@@ -39,7 +39,7 @@ a {
   bottom: 0; }
 
 div.pageBottom {
-  margin-bottom: 100px; }
+  margin-bottom: 50px; }
 
 @media (max-width: 660px) {
   div.pageBottom {
@@ -281,15 +281,13 @@ p.client {
 .show {
   display: block;
   opacity: 1;
-  transition: 400ms ease;
   background: #e1f5fe;
   margin-top: -10px;
   border-radius: 0 8px 8px 8px; }
 
 .hide {
   display: none;
-  opacity: 0;
-  transition: 400ms ease; }
+  opacity: 0; }
 
 @media (max-width: 660px) {
   header {
@@ -357,7 +355,8 @@ p.client {
   a.navHover:hover {
     color: #afc2cb;
     background-color: ghostwhite;
-    font-weight: bold; } }
+    font-weight: bold;
+    padding: 0; } }
 
 @media (max-width: 600px) {
   div.profilePhoto {
@@ -421,4 +420,6 @@ p.client {
   .tabSelect {
     background: #afc2cb;
     color: ghostwhite;
-    font-weight: bold; } }
+    font-weight: bold; }
+  .mobileRadius {
+    border-radius: 0; } }

@@ -85,7 +85,6 @@ p.client{
 .show{
   display: block;
   opacity: 1;
-  transition: 400ms ease;
   background: $middle;
   margin-top: -10px;
   border-radius: 0 8px 8px 8px;
@@ -93,5 +92,4 @@ p.client{
 .hide{
   display: none;
   opacity: 0;
-  transition: 400ms ease;
 }

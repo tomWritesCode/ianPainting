@@ -10,7 +10,7 @@ document.getElementById("tab1").addEventListener("click", function () {
   document.getElementById("info4").classList.add("hide");
   document.getElementById("info4").classList.remove("show");
   // Mobile Tab Change
-  document.getElementById("tab1").classList.add("tabSelect"); //Mobile Tab Colour
+  document.getElementById("tab1").classList.add("tabSelect"); //Mobile Tab Selected
   document.getElementById("tab2").classList.remove("tabSelect");
   document.getElementById("tab3").classList.remove("tabSelect");
   document.getElementById("tab4").classList.remove("tabSelect");
@@ -26,7 +26,7 @@ document.getElementById("tab2").addEventListener("click", function () {
   document.getElementById("info4").classList.remove("show");
   // Mobile Tab Change
   document.getElementById("tab1").classList.remove("tabSelect");
-  document.getElementById("tab2").classList.add("tabSelect"); //Mobile Tab Colour
+  document.getElementById("tab2").classList.add("tabSelect"); //Mobile Tab Selected
   document.getElementById("tab3").classList.remove("tabSelect");
   document.getElementById("tab4").classList.remove("tabSelect");
 });
@@ -42,7 +42,7 @@ document.getElementById("tab3").addEventListener("click", function () {
   // Mobile Tab Change
   document.getElementById("tab1").classList.remove("tabSelect");
   document.getElementById("tab2").classList.remove("tabSelect");
-  document.getElementById("tab3").classList.add("tabSelect"); //Mobile Tab Colour
+  document.getElementById("tab3").classList.add("tabSelect"); //Mobile Tab Selected
   document.getElementById("tab4").classList.remove("tabSelect");
 });
 document.getElementById("tab4").addEventListener("click", function () {
@@ -58,6 +58,6 @@ document.getElementById("tab4").addEventListener("click", function () {
   document.getElementById("tab1").classList.remove("tabSelect");
   document.getElementById("tab2").classList.remove("tabSelect");
   document.getElementById("tab3").classList.remove("tabSelect");
-  document.getElementById("tab4").classList.add("tabSelect"); //Mobile Tab Colour
+  document.getElementById("tab4").classList.add("tabSelect"); //Mobile Tab Selected
 });
 
