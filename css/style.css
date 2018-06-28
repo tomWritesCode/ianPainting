@@ -115,15 +115,13 @@ section.about {
   section.about h3 {
     display: inline; }
   section.about p {
-    width: 75%; }
+    width: 80%; }
 
 p.blurb {
   margin-top: 15px; }
 
-div.profilePhoto {
+img.profilePhoto {
   height: 250px;
-  width: 200px;
-  background: yellow;
   border-radius: 7px;
   display: inline;
   float: right; }
@@ -144,7 +142,7 @@ div.profilePhoto {
   .container .currentSale {
     display: grid;
     grid-template-columns: repeat(3, 32%);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: auto, auto, auto;
     grid-gap: 15px 2%; }
   .container .artworkContainer {
     background: ghostwhite;
@@ -157,7 +155,8 @@ div.profilePhoto {
       height: auto;
       vertical-align: middle; }
     .container .artworkContainer .info {
-      font-weight: 300; }
+      font-weight: 300;
+      margin-top: 10px; }
     .container .artworkContainer .info2 {
       font-weight: 300;
       margin-top: 5px; }
