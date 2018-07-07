@@ -142,24 +142,27 @@ img.profilePhoto {
   .container .currentSale {
     display: grid;
     grid-template-columns: repeat(3, 32%);
-    grid-template-rows: auto, auto, auto;
+    grid-template-rows: auto;
     grid-gap: 15px 2%; }
   .container .artworkContainer {
-    background: ghostwhite;
+    background: none;
     padding: 10px 15px;
     border-radius: 7px; }
     .container .artworkContainer .title {
       font-weight: 600; }
     .container .artworkContainer img.artworkImage {
       width: 100%;
-      height: auto;
-      vertical-align: middle; }
+      height: auto; }
     .container .artworkContainer .info {
       font-weight: 300;
       margin-top: 10px; }
     .container .artworkContainer .info2 {
       font-weight: 300;
       margin-top: 5px; }
+    .container .artworkContainer div.sold {
+      font-weight: 600;
+      margin-top: 5px;
+      display: block; }
 
 .itemContainer {
   margin: 90px auto 0 auto;
@@ -212,6 +215,9 @@ div.showsBlock {
   margin: 0 auto;
   width: 95vw;
   text-align: center; }
+
+img.profilePhoto {
+  height: 300px; }
 
 section.shows {
   width: 70vw;
@@ -358,9 +364,10 @@ p.client {
     padding: 0; } }
 
 @media (max-width: 600px) {
-  div.profilePhoto {
+  img.profilePhoto {
+    height: 200px;
     display: block;
-    float: unset;
+    float: none;
     margin: 0 auto; }
   section.about {
     display: block; }
@@ -407,6 +414,8 @@ p.client {
     width: 90vw;
     margin: 20px auto;
     font-family: helvetica, sans-serif; }
+  .show {
+    border-radius: 0; }
   .tab {
     display: block;
     text-align: center;
@@ -415,7 +424,8 @@ p.client {
     padding: 5px 20px;
     background: #e1f5fe;
     border-radius: 8px 8px 0 0;
-    margin-right: 5px; }
+    margin-right: 5px;
+    width: 100%; }
   .tabSelect {
     background: #afc2cb;
     color: ghostwhite;

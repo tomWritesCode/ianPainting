@@ -9,6 +9,9 @@
   margin: 20px auto;
   font-family: $font-style;
 }
+.show{
+  border-radius: 0;
+}
 .tab{
   display: block;
   text-align: center;
@@ -17,9 +20,9 @@
   padding: 5px 20px;
   background: $middle;
   border-radius: 8px 8px 0 0;
-  margin-right: 5px
+  margin-right: 5px;
+  width: 100%;
 }
-
 .tabSelect{
   background: $dark;
   color: $light;

@@ -1,9 +1,10 @@
   @media (max-width: 600px) {
-  div.profilePhoto{
-    display: block;
-    float: unset;
-    margin: 0 auto;
-  }
+    img.profilePhoto {
+      height: 200px;
+      display: block;
+      float: none;
+      margin: 0 auto;
+    }
   section.about{
     display: block;
 

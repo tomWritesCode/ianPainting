@@ -621,6 +621,13 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contact.html",
+		"oF": 0
+		},
 	"\/css\/about.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -644,6 +651,19 @@
 		"oA": 1,
 		"oAP": "\/css\/aboutSection.css",
 		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/contact.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -827,6 +847,41 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/individualWorks\/0164.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/0164.html",
+		"oF": 0
+		},
+	"\/individualWorks\/0673.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/0673.html",
+		"oF": 0
+		},
+	"\/individualWorks\/0674.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/0674.html",
+		"oF": 0
+		},
+	"\/individualWorks\/0715.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/0715.html",
+		"oF": 0
+		},
+	"\/individualWorks\/workIndividual.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/workIndividual.html",
+		"oF": 0
+		},
 	"\/js\/aboutInfo-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -845,7 +900,7 @@
 		"oAP": "\/js\/aboutInfo-min.js",
 		"oF": 1,
 		"sC": 3,
-		"tS": 0
+		"tS": 1
 		},
 	"\/js\/script-min.js": {
 		"ft": 64,
@@ -865,14 +920,7 @@
 		"oAP": "\/js\/script-min.js",
 		"oF": 0,
 		"sC": 3,
-		"tS": 0
-		},
-	"\/workIndividual.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/workIndividual.html",
-		"oF": 0
+		"tS": 1
 		}
 	},
 "hooks": [

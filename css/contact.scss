@@ -1,0 +1,63 @@
+// Colour Sets
+$light: ghostwhite;
+$middle: #e1f5fe;
+$dark: #afc2cb;
+
+a {
+  color: #bf9f40;
+  cursor: hand;
+}
+
+
+form {
+  height: 300px;
+  width: 60vw;
+  max-width: 400px;
+  background-color: $dark;
+  color: $light;
+  text-align: center;
+  border-radius: 12px;
+  display: block;
+  margin: 120px auto;
+  box-shadow: 1px 1px 20px $middle;
+  font-family: Helvetica, sans-serif;
+}
+
+.itmContainer {
+  padding-top: 15px;
+}
+
+.formItm {
+  display: block;
+  margin: 20px auto;
+  width: 70%;
+  max-width: 300px;
+  background-color: $middle;
+  color: #16161d;
+  border: 1px solid $light;
+  border-radius: 4px;
+  padding: 3px 5px;
+}
+
+.send {
+  border: 1px solid;
+  width: 40vw;
+  max-width: 150px;
+  height: 40px;
+  border-radius: 9px;
+  transition: all 300ms ease-in-out;
+  font-weight: bold;
+  background-color: $middle;
+  color: #16161d;
+  border: 1px solid $light;
+}
+
+.send:hover {
+  box-shadow: 3px 3px 3px $middle;
+}
+
+@media(max-width: 660px){
+  form{
+    width: 95vw;
+  }
+}
