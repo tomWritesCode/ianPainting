@@ -1,13 +1,15 @@
 @media (max-width: 660px){
   .artworkImageIndividual{
     display: block;
-    margin-bottom: 0;
-    width: 100%;
+    margin-bottom: 20px;
+    width: 90vw;
   }
 
   .informationContainer{
     display: block;
     margin: 0 auto;
-    width: 100%;
+    max-width: 400px;
+    width: 90vw;
+    margin-bottom: 40px;
   }
 }

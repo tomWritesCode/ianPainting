@@ -166,10 +166,11 @@ img.profilePhoto {
 
 .itemContainer {
   margin: 90px auto 0 auto;
-  width: 95vw;
+  width: 90vw;
   max-width: 1200px;
   text-align: center;
-  font-family: helvetica, sans-serif; }
+  font-family: helvetica, sans-serif;
+  padding-top: 65px; }
 
 .titleIndividual {
   font-size: 26px;
@@ -177,13 +178,13 @@ img.profilePhoto {
   margin-bottom: 10px; }
 
 .imageInfoContainer {
-  width: 100%;
+  width: 90vw;
   max-height: 500px; }
 
 .artworkImageIndividual {
-  width: 59%;
   height: auto;
   max-height: 500px;
+  max-width: 51%;
   display: inline-block;
   margin-bottom: -12%;
   margin-right: 1%;
@@ -206,6 +207,22 @@ img.profilePhoto {
 
 .paintingInfo {
   margin-bottom: 10px; }
+
+.back {
+  float: left;
+  display: block;
+  padding: 20px 20px 20px 40px;
+  background-color: #afc2cb;
+  border: 1px solid #afc2cb;
+  color: ghostwhite;
+  border-radius: 0 8px 8px 0;
+  font-family: helvetica, sans-serif;
+  transition: all 300ms ease-in-out; }
+
+.back:hover {
+  background-color: ghostwhite;
+  color: #16161d;
+  box-shadow: 3px 3px 15px #afc2cb; }
 
 section.about {
   margin-top: 100px; }
@@ -399,12 +416,14 @@ p.client {
 @media (max-width: 660px) {
   .artworkImageIndividual {
     display: block;
-    margin-bottom: 0;
-    width: 100%; }
+    margin-bottom: 20px;
+    width: 90vw; }
   .informationContainer {
     display: block;
     margin: 0 auto;
-    width: 100%; } }
+    max-width: 400px;
+    width: 90vw;
+    margin-bottom: 40px; } }
 
 @media (max-width: 660px) {
   section.shows {

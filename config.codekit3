@@ -654,6 +654,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/contact.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/contact-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/contact.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -847,13 +857,6 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/individualWorks\/0164.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/individualWorks\/0164.html",
-		"oF": 0
-		},
 	"\/individualWorks\/0673.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -868,18 +871,312 @@
 		"oAP": "\/individualWorks\/0674.html",
 		"oF": 0
 		},
-	"\/individualWorks\/0715.html": {
+	"\/individualWorks\/1461.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/individualWorks\/0715.html",
+		"oAP": "\/individualWorks\/1461.html",
 		"oF": 0
 		},
-	"\/individualWorks\/workIndividual.html": {
+	"\/individualWorks\/1573.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/individualWorks\/workIndividual.html",
+		"oAP": "\/individualWorks\/1573.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1592.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1592.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1597.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1597.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1598.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1598.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1615.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1615.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1798.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1798.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1803.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1803.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1811.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1811.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1819.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1819.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1821.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1821.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1825.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1825.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1828.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1828.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1835.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1835.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1840.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1840.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1846.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1846.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1874.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1874.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1878.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1878.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1884.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1884.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1887.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1887.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1890.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1890.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1903.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1903.html",
+		"oF": 0
+		},
+	"\/individualWorks\/1946.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/1946.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2103.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2103.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2109.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2109.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2115.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2115.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2119.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2119.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2124.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2124.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2128.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2128.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2135.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2135.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2138.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2138.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2139.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2139.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2147.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2147.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2148.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2148.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2157.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2157.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2160.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2160.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2162.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2162.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2165.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2165.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2169.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2169.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2171.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2171.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2173.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2173.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2177.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2177.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2180.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2180.html",
+		"oF": 0
+		},
+	"\/individualWorks\/2185.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/individualWorks\/2185.html",
 		"oF": 0
 		},
 	"\/js\/aboutInfo-min.js": {
@@ -921,6 +1218,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/workIndividual.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/workIndividual.html",
+		"oF": 0
 		}
 	},
 "hooks": [
