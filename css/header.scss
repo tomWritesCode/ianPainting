@@ -41,6 +41,8 @@ a.navHover:hover{
   background-color: $light;
   font-weight: bold;
 }
-.slideMenuOpen{
-  display: none;
+@media(max-width: 660px) {
+  .slideMenuOpen{
+    display: none;
+  }
 }
